@@ -1,8 +1,8 @@
 *** Settings ***
-Documentation    This file will test Support.dell.com Support home page, whether it ie getting 
-...              valid information about capturing the tag or not.
-...              We will test signin option working or not and we will check if website support home page
-...              is showing the desired content or not.
+Documentation    This file will test dell.com SignIn page, whether it ie getting 
+...              valid desired content or not.
+'''              Also this Test will check all the invalid case of SignIn.
+...             
 Library    SeleniumLibrary
 Library    DataDriver    file=../Dellresources/loginDetails.xlsx
 Resource    ../Dellresources/invalidResource.robot
