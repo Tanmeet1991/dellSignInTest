@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation    This file will test dell.com SignIn page, whether it ie getting 
-...              valid desired content or not.
-'''              Also this Test will check all the invalid case of SignIn.
-...             
+...              valid desired content or not. Also this Test will check all the invalid case of SignIn.
+
+
 Library    SeleniumLibrary
 Library    DataDriver    file=../Dellresources/loginDetails.xlsx
 Resource    ../Dellresources/invalidResource.robot
