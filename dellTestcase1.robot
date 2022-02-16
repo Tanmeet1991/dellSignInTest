@@ -1,8 +1,9 @@
 *** Settings ***
-Documentation    This file will test Support.dell.com Support home page, whether it ie getting 
-...              valid information about capturing the tag or not.
-...              We will test signin option working or not and we will check if website support home page
-...              is showing the desired content or not.
+Documentation    This file will test dell.com SignIn page, whether it ie getting 
+...              right functionality of SIgnIn or not, it will check the successful login and after login showing the right information or not.
+...              We will test major tabs on the landed page whether the functionality of tabs are desired fuctionality or not.
+
+
 Library    SeleniumLibrary
 Resource    ../Dellresources/genericDell.robot
 Resource    ../Dellresources/landedPage.robot
