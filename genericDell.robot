@@ -6,14 +6,8 @@ Library    SeleniumLibrary
 # Resource    ../Dellresources/userPassword.robot
 
 
-
-
 *** Variables ***
 ${dellUrl}    https://www.dell.com/en-in
-${userEmail}    capricioustdaddy@gmail.com    
-${userPassword}    Danger@1991
-
-
 
 
 *** Keywords ***
